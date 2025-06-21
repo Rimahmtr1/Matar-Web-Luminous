@@ -62,6 +62,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
 function validateEmail(email) {
   return /\S+@\S+\.\S+/.test(email);
 }
+
 // Preloader hide on window load with fadeout
 window.addEventListener('load', () => {
   const preloader = document.getElementById('preloader');
